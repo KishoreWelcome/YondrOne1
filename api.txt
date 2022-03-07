@@ -1,0 +1,29 @@
+		Rest API Documentation				
+s.no      Endpoint    		        Method     	 Outputformat    	Status	OUTPUT	Camelsyntax
+1	 {{baseUrl}}/alarms	POST(Postalarams)	JSON	405	Method not allowed	YES
+2	 {{baseUrl}}/alarms	POST	JSON	404	Not found	YES
+3	 {{baseUrl}}/alarms	POST	JSON	200	ok	YES
+4	 {{baseUrl}}/alarms	POST	JSON	401	Unauthorized	YES
+5	 {{baseUrl}}/alarms	POST	JSON	502	Bad gateway	YES
+6	 {{baseUrl}}/alarms	POST	JSON	400	Bad Request	YES
+7	 {{baseUrl}}/alarms	POST	JSON	403	Forbidden	YES
+8	 {{baseUrl}}/alarms	POST	JSON	500	Internal server error	YES
+9	 {{baseUrl}}/alarms	POST	JSON	503	Service Unavailable	YES
+10	 {{baseUrl}}/alarms	GET (Getalarams)	JSON	200	Ok	YES
+11	 {{baseUrl}}/alarms	GET 	JSON	403	Forbidden	YES
+12	 {{baseUrl}}/alarms	GET 	JSON	404	Not found	YES
+13	 {{baseUrl}}/alarms	GET 	JSON	401	Unauthorized	YES
+14	 {{baseUrl}}/alarms	GET 	JSON	405	Method not allowed	YES
+15	 {{baseUrl}}/alarms	GET 	JSON	502	Bad gateway	YES
+16	 {{baseUrl}}/alarms	GET 	JSON	400	Bad Request	YES
+17	 {{baseUrl}}/alarms	GET 	JSON	503	Service Unavailable	YES
+18	 {{baseUrl}}/alarms	GET 	JSON	500	Internal server error	YES
+19	 {{baseUrl}}/alarms	PUT(Editalarams)	JSON	500	Internal server error	YES
+20	 {{baseUrl}}/alarms	PUT	JSON	400	Bad Request	YES
+21	 {{baseUrl}}/alarms	PUT	JSON	200	Ok	YES
+22	 {{baseUrl}}/alarms	PUT	JSON	401	Unauthorized	YES
+23	 {{baseUrl}}/alarms	PUT	JSON	503	Service Unavailable	YES
+24	 {{baseUrl}}/alarms	PUT	JSON	403	Forbidden	YES
+25	 {{baseUrl}}/alarms	PUT	JSON	405	Method not allowed	YES
+26	 {{baseUrl}}/alarms	PUT	JSON	502	Bad gateway	YES
+27	 {{baseUrl}}/alarms		JSON	404	Not found	YES
